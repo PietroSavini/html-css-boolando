@@ -45,6 +45,9 @@ a{
 
     /* debug border */
     --border: 1px dashed black;
+
+    /* discounts */
+    --d30: '30%';
 }
 
 section{
@@ -185,4 +188,41 @@ div.description{
 .col:hover .displayed{
     visibility: hidden;
     
+}
+
+/* labels styling */
+.label{
+    position: absolute ;
+    padding: 0.3rem 0.8rem;
+    text-align: center;
+    z-index: 1;
+    font-size: .8rem;
+}
+
+.discount{
+    bottom: 30px;
+    color: #fff;
+    background-color: #FF0000
+}
+
+.eco{
+    bottom: 30px;
+    left:60px;
+    color:#fff;
+    background-color: var(--green);
+}
+
+.wishlist{
+    position: absolute ;
+    z-index: 1;
+    background-color: #fff;
+    right: 0;
+    top: 10px;
+    height: 40px;
+    line-height: 30px;
+}
+
+.wishlist:hover{
+    color: #FF0000;
+    transition: 200ms;
 }
