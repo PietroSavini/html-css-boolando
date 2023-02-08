@@ -218,11 +218,11 @@ div.description{
     background-color: #fff;
     right: 0;
     top: 10px;
-    height: 40px;
-    line-height: 30px;
+    padding: 15px 15px;
+    
 }
 
 .wishlist:hover{
     color: #FF0000;
-    transition: 200ms;
+    transition:200ms;
 }
