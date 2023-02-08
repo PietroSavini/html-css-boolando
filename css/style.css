@@ -228,3 +228,42 @@ div.description{
     color: #FF0000;
     transition:200ms;
 }
+
+/* footer section */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black-f);
+    height: 150px;
+    color: #fff;
+    
+}
+
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: var(--width);
+    height: 80px;
+}
+
+footer h2{
+    font-size: 1.3rem;
+}
+
+footer li{
+    margin-right: 0.3em;
+    margin-top: 1rem;
+
+}
+
+footer span{
+    font-size: 0.8rem;
+    
+}
+
+footer a:hover{
+    transition: 200ms;
+    color: var(--orange-h);
+}
