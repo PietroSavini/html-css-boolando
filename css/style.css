@@ -192,22 +192,21 @@ div.description{
 
 /* labels styling */
 .label{
+    display: inline-block;
     position: absolute ;
-    padding: 0.3rem 0.8rem;
-    text-align: center;
+    bottom: 40px;
     z-index: 1;
     font-size: .8rem;
 }
 
 .discount{
-    bottom: 30px;
+    padding: 0.3rem 0.8rem;
     color: #fff;
     background-color: #FF0000
 }
 
 .eco{
-    bottom: 30px;
-    left:60px;
+    padding:0.3rem 0.8rem;
     color:#fff;
     background-color: var(--green);
 }
